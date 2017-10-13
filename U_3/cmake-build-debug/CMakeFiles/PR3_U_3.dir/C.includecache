@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/xuexi/DB3/PR3_U_3/A_6.c
+int20.h
+/Users/xuexi/DB3/PR3_U_3/int20.h
+stdio.h
+-
+
+/Users/xuexi/DB3/PR3_U_3/int20.c
+int20.h
+/Users/xuexi/DB3/PR3_U_3/int20.h
+string.h
+-
+stdio.h
+-
+
+/Users/xuexi/DB3/PR3_U_3/int20.h
+

@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/xuexi/DB3/PR3_U_3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/xuexi/DB3/PR3_U_3/cmake-build-debug

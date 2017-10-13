@@ -1,0 +1,20 @@
+GCC_ARGS= -pedantic-errors -Wall -Wstrict-prototypes
+OBJ= math.o summe.o differenz.o input.o
+
+math: $(OBJ)
+	gcc $(GCC_ARGS) -o math $(OBJ)
+
+input.o: input.c
+	gcc $(GCC_ARGS) -c input.c
+
+summe.o: summe.c input.h
+	gcc $(GCC_ARGS) -c summe.c
+
+differenz.o: differenz.c input.h
+	gcc $(GCC_ARGS) -c differenz.c
+
+math.o: math.o summe.h differenz.h
+	gcc $(GCC_ARGS) -c math.c
+
+clean:
+	rm math $(OBJ)

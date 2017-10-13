@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/xuexi/PR3/Ueb_2/differenz.c
+differenz.h
+/Users/xuexi/PR3/Ueb_2/differenz.h
+input.h
+/Users/xuexi/PR3/Ueb_2/input.h
+
+/Users/xuexi/PR3/Ueb_2/differenz.h
+
+/Users/xuexi/PR3/Ueb_2/input.c
+input.h
+/Users/xuexi/PR3/Ueb_2/input.h
+stdio.h
+-
+
+/Users/xuexi/PR3/Ueb_2/input.h
+
+/Users/xuexi/PR3/Ueb_2/math.c
+stdio.h
+-
+summe.h
+/Users/xuexi/PR3/Ueb_2/summe.h
+differenz.h
+/Users/xuexi/PR3/Ueb_2/differenz.h
+
+/Users/xuexi/PR3/Ueb_2/summe.c
+summe.h
+/Users/xuexi/PR3/Ueb_2/summe.h
+input.h
+/Users/xuexi/PR3/Ueb_2/input.h
+
+/Users/xuexi/PR3/Ueb_2/summe.h
+
