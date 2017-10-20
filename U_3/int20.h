@@ -1,7 +1,7 @@
 //
 // Created by XUEXI on 2017/10/13.
 //
-#define INT_LENGTH 20
+#define INT_LENGTH 25
 
 #ifndef PR3_U_3_INT20_H
 #define PR3_U_3_INT20_H
