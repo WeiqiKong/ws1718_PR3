@@ -15,6 +15,7 @@ void tausche_int(int *a, int *b) {
 }
 
 int main(void) {
+//    Aufgabe 6
     char *wday[] = {"So.", "Mo.", "Di.", "Mi.", "Do.", "Fr.", "Sa."};
     time_t time_array[2] = {645703200, 49888800};
     time_t *tp = time_array;
@@ -25,7 +26,7 @@ int main(void) {
     printf("%02d:%02d:%02d\n", tm1->tm_hour, tm1->tm_min, tm1->tm_sec);
 
 
-    /* Aufgabe_5
+//     Aufgabe_5
      int a[5]={1,2,3,4,5};
      int b[5]={};
      tausche_array(a,b);
@@ -34,33 +35,30 @@ int main(void) {
      }
 
 
- */
 
 // Aufgabe_2
-/*
-    int a[] = {1, 5, 19, -4, 3};
+    /*int a[] = {1, 5, 19, -4, 3};
     int *p;
     int i;
     p = a;
     for (i = 1; i < 5; i++) {
-        if (a[i] > *p) {
+        if (*(a+i) > *p) {
             p = &(a[i]);
         }
     }
     printf("Maximum: %d\n", *p);
-*/
 
 
 
 
-    /* Aufgabe_1
-     *
+//     Aufgabe_1
+
      int i = 1;
     int j = 2;
     printf("i = %d, j = %d\n", i, j);
-     Gibt 1 und 2 aus
+//     Gibt 1 und 2 aus
     tausche_int(&i, &j);
     printf("i = %d, j = %d\n", i, j);
-     Gibt 2 und 1 aus
-    return 0;*/
+//     Gibt 2 und 1 aus*/
+    return 0;
 }
