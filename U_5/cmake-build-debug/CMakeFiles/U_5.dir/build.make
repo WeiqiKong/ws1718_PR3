@@ -57,38 +57,38 @@ include CMakeFiles/U_5.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/U_5.dir/flags.make
 
-CMakeFiles/U_5.dir/main.c.o: CMakeFiles/U_5.dir/flags.make
-CMakeFiles/U_5.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xuexi/PR3/U_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/U_5.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/U_5.dir/main.c.o   -c /Users/xuexi/PR3/U_5/main.c
+CMakeFiles/U_5.dir/U_5.c.o: CMakeFiles/U_5.dir/flags.make
+CMakeFiles/U_5.dir/U_5.c.o: ../U_5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xuexi/PR3/U_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/U_5.dir/U_5.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/U_5.dir/U_5.c.o   -c /Users/xuexi/PR3/U_5/U_5.c
 
-CMakeFiles/U_5.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/U_5.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/xuexi/PR3/U_5/main.c > CMakeFiles/U_5.dir/main.c.i
+CMakeFiles/U_5.dir/U_5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/U_5.dir/U_5.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/xuexi/PR3/U_5/U_5.c > CMakeFiles/U_5.dir/U_5.c.i
 
-CMakeFiles/U_5.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/U_5.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/xuexi/PR3/U_5/main.c -o CMakeFiles/U_5.dir/main.c.s
+CMakeFiles/U_5.dir/U_5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/U_5.dir/U_5.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/xuexi/PR3/U_5/U_5.c -o CMakeFiles/U_5.dir/U_5.c.s
 
-CMakeFiles/U_5.dir/main.c.o.requires:
+CMakeFiles/U_5.dir/U_5.c.o.requires:
 
-.PHONY : CMakeFiles/U_5.dir/main.c.o.requires
+.PHONY : CMakeFiles/U_5.dir/U_5.c.o.requires
 
-CMakeFiles/U_5.dir/main.c.o.provides: CMakeFiles/U_5.dir/main.c.o.requires
-	$(MAKE) -f CMakeFiles/U_5.dir/build.make CMakeFiles/U_5.dir/main.c.o.provides.build
-.PHONY : CMakeFiles/U_5.dir/main.c.o.provides
+CMakeFiles/U_5.dir/U_5.c.o.provides: CMakeFiles/U_5.dir/U_5.c.o.requires
+	$(MAKE) -f CMakeFiles/U_5.dir/build.make CMakeFiles/U_5.dir/U_5.c.o.provides.build
+.PHONY : CMakeFiles/U_5.dir/U_5.c.o.provides
 
-CMakeFiles/U_5.dir/main.c.o.provides.build: CMakeFiles/U_5.dir/main.c.o
+CMakeFiles/U_5.dir/U_5.c.o.provides.build: CMakeFiles/U_5.dir/U_5.c.o
 
 
 # Object files for target U_5
 U_5_OBJECTS = \
-"CMakeFiles/U_5.dir/main.c.o"
+"CMakeFiles/U_5.dir/U_5.c.o"
 
 # External object files for target U_5
 U_5_EXTERNAL_OBJECTS =
 
-U_5: CMakeFiles/U_5.dir/main.c.o
+U_5: CMakeFiles/U_5.dir/U_5.c.o
 U_5: CMakeFiles/U_5.dir/build.make
 U_5: CMakeFiles/U_5.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xuexi/PR3/U_5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable U_5"
@@ -99,7 +99,7 @@ CMakeFiles/U_5.dir/build: U_5
 
 .PHONY : CMakeFiles/U_5.dir/build
 
-CMakeFiles/U_5.dir/requires: CMakeFiles/U_5.dir/main.c.o.requires
+CMakeFiles/U_5.dir/requires: CMakeFiles/U_5.dir/U_5.c.o.requires
 
 .PHONY : CMakeFiles/U_5.dir/requires
 

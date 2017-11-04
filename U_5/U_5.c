@@ -16,16 +16,18 @@ void free0(char **p);
 
 int main(void) {
 
-
-    char *p = malloc(10);
+/* Aufgabe 5.4
+ *
+ * char *p = malloc(10);
     printf("%p\n", p);
-    /* Ausgabe z. B. 0x470228 */
+     Ausgabe z. B. 0x470228
     free0(&p);
     printf("%p\n", p);
-    /* Ausgabe 0x0 oder 0 oder (nil) o. ä. */
+     Ausgabe 0x0 oder 0 oder (nil) o. ä. */
 
+   /* Aufgabe 5.2*/
 
-   /* int i = 0;
+     int i = 0;
     angestellter *array[ARRAYGROESSE] = {};
 
     while (i < 10) {
@@ -46,13 +48,13 @@ int main(void) {
             array[i] = (angestellter *) malloc(sizeof(angestellter));
             printf("Name: ");
             scanf("%50[^\n]", array[i]->name);
-             ausgeben
+//             ausgeben
 
             do {} while (getchar() != '\n');
 
             printf("Personalnummer: ");
             scanf("%d", &(array[i]->personalnummer));
-             ausgeben
+//             ausgeben
 
             do {} while (getchar() != '\n');
 
@@ -66,7 +68,9 @@ int main(void) {
     for (int j = 0; j < 10; ++j) {
         free(array[0]);
     }
-*/
+
+
+
 //    int i;
 //    char name[50 + 1];
 //    /* Zahl einlesen */
@@ -102,6 +106,30 @@ int main(void) {
         printf("Passwort falsch - Zugang verweigert!\n");
         return -1;
     }*/
+
+
+
+    /*für selbst Test
+     *
+     * char ort[11];
+strcpy(ort,"langweilig");
+printf("%s", ort);
+
+angestellter angestellter1={"kongweiqi",12323,1231.23};
+strcpy(angestellter1.name,"kongweiqi");
+angestellter1.gehalt=123.23;
+angestellter1.personalnummer=123123;
+
+printf("\n%p %p %p",&(angestellter1.name),&(angestellter1.personalnummer),&(angestellter1.gehalt));
+
+angestellter *angestellter2;
+angestellter2 = (angestellter *)malloc(sizeof(angestellter));
+
+strcpy(angestellter2->name,"kongweiqi");
+angestellter2->gehalt=123.23;
+angestellter2->personalnummer=123123;
+
+printf("\n%p %p %p",&(angestellter2->name),&(angestellter2->personalnummer),&(angestellter2->gehalt));*/
 }
 
 void free0(char **pp) {

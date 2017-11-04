@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/xuexi/PR3/U_5/main.c">
+		<Unit filename="/Users/xuexi/PR3/U_5/U_5.c">
 			<Option target="U_5"/>
 		</Unit>
 		<Unit filename="/Users/xuexi/PR3/U_5/CMakeLists.txt">

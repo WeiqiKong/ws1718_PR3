@@ -123,32 +123,32 @@ U_5/fast:
 	$(MAKE) -f CMakeFiles/U_5.dir/build.make CMakeFiles/U_5.dir/build
 .PHONY : U_5/fast
 
-main.o: main.c.o
+U_5.o: U_5.c.o
 
-.PHONY : main.o
+.PHONY : U_5.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/U_5.dir/build.make CMakeFiles/U_5.dir/main.c.o
-.PHONY : main.c.o
+U_5.c.o:
+	$(MAKE) -f CMakeFiles/U_5.dir/build.make CMakeFiles/U_5.dir/U_5.c.o
+.PHONY : U_5.c.o
 
-main.i: main.c.i
+U_5.i: U_5.c.i
 
-.PHONY : main.i
+.PHONY : U_5.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/U_5.dir/build.make CMakeFiles/U_5.dir/main.c.i
-.PHONY : main.c.i
+U_5.c.i:
+	$(MAKE) -f CMakeFiles/U_5.dir/build.make CMakeFiles/U_5.dir/U_5.c.i
+.PHONY : U_5.c.i
 
-main.s: main.c.s
+U_5.s: U_5.c.s
 
-.PHONY : main.s
+.PHONY : U_5.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/U_5.dir/build.make CMakeFiles/U_5.dir/main.c.s
-.PHONY : main.c.s
+U_5.c.s:
+	$(MAKE) -f CMakeFiles/U_5.dir/build.make CMakeFiles/U_5.dir/U_5.c.s
+.PHONY : U_5.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... U_5"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... U_5.o"
+	@echo "... U_5.i"
+	@echo "... U_5.s"
 .PHONY : help
 
 

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/xuexi/PR3/U_6/6_b.c
+stdio.h
+-
+ctype.h
+-
+stdlib.h
+-
+memory.h
+-
+
