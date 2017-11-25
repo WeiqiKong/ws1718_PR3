@@ -1,12 +1,20 @@
 #include <stdio.h>
 double (*getBetrag[3])(double );
+
 double berecheMwst(double);
 double berecheBrutto(double);
 double berecheNetto(double);
 
+void print_array(char **pInt);
+
 int main() {
     int fun = 0;
     double betrag=0.0;
+
+    char* array[]={"abc","cde","fad"};
+    print_array(array);
+    printf("*%lu*", sizeof(array));
+
 
     puts("Ihre Eingabe");
     puts("       <funktion> [<betrag>] ");
@@ -17,9 +25,14 @@ int main() {
     getBetrag[1]=&berecheBrutto;
     getBetrag[2]=&berecheNetto;
 
-    printf("%0.2f", (getBetrag[fun])(betrag));
+    printf("%0.2f", getBetrag[fun](betrag));
 
     return 0;
+}
+
+void print_array(char **pInt) {
+    printf("*%lu*", sizeof(pInt));
+    printf("%s", pInt[1]);
 }
 
 double berecheMwst(double betrag){

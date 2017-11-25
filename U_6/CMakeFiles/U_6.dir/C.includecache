@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/xuexi/PR3/U_6/6_c.c
+/Users/xuexi/PR3/U_6/6_b.c
 stdio.h
+-
+ctype.h
+-
+stdlib.h
+-
+memory.h
+-
+stdlib.h
+-
+errno.h
+-
+string.h
 -
 
