@@ -26,16 +26,17 @@
 //    printf("\n");
 //}
 
-void durchlaufen(struct knoten *kopf) {
+void durchlaufen(struct knoten *kopf, struct knoten *ende) {
     struct knoten *laufzeiger;
     laufzeiger = kopf;
-    while (laufzeiger!=NULL) {
-        printf("%d ",laufzeiger->wert);
-        laufzeiger = laufzeiger->next;
+    printf("%d ", laufzeiger->wert);
+    while (ende!=laufzeiger)
+    {
+        laufzeiger=laufzeiger->next;
+        printf("%d ", laufzeiger->wert);
     }
     printf("\n");
 }
-
 
 
 /*struct knoten *suchen(struct knoten *kopf, struct knoten *ende, int gesuchter_wert) {
@@ -47,10 +48,10 @@ void durchlaufen(struct knoten *kopf) {
     return laufzeiger;
 }*/
 
-struct knoten *suchen(struct knoten *kopf,int gesuchter_wert) {
+struct knoten *suchen(struct knoten *kopf, int gesuchter_wert) {
     struct knoten *laufzeiger;
     laufzeiger = kopf;
-    while ((laufzeiger->next!=NULL)&&(laufzeiger->wert!=gesuchter_wert)) {
+    while ((laufzeiger->next != NULL) && (laufzeiger->wert != gesuchter_wert)) {
         laufzeiger = laufzeiger->next;
     }
     return laufzeiger;
@@ -74,10 +75,15 @@ int einfuegen_kopf(struct knoten **kopfref, struct knoten *einzufueg) {
 //    (*kopfref)->next = einzufueg;
 //    return 0;
 //}
-int einfuegen_kopf(struct knoten **kopfref, struct knoten *einzufueg) {
-    if ((einzufueg==NULL)||(kopfref==NULL)) return -1;
-    einzufueg->next = *kopfref;
-    *kopfref = einzufueg;
+int einfuegen_kopf(struct knoten **kopfref, struct knoten *einzufueg, struct knoten **enderef) {
+    if ((einzufueg == NULL) || (kopfref == NULL)) return -1;
+    if ((*kopfref) == NULL) {
+        *kopfref = einzufueg;
+        *enderef = einzufueg;
+    } else {
+        einzufueg->next = *kopfref;
+        *kopfref = einzufueg;
+    }
     return 0;
 }
 
@@ -98,31 +104,35 @@ int einfuegen_ende(struct knoten **kopfref, struct knoten *einzufueg) {
     return 0;
 }
 */
-int einfuegen_ende(struct knoten **ende, struct knoten **einzufueg) {
-    if (ende == NULL || einzufueg == NULL) return -1;
-    (*ende)->next=*einzufueg;
-    *ende=*einzufueg;
+int einfuegen_ende(struct knoten **enderef, struct knoten *einzufueg) {
+    if (enderef == NULL || einzufueg == NULL) return -1;
+    (*enderef)->next=einzufueg;
+    *enderef=einzufueg;
     return 0;
 }
 
-int einfuegen_nach(struct knoten *nachdiesem, struct knoten *einzufueg) {
+int einfuegen_nach(struct knoten *nachdiesem, struct knoten *einzufueg,struct knoten **ende) {
     if ((nachdiesem == NULL) || (einzufueg == NULL)) return -1;
+    if(nachdiesem==*ende)
+        *ende=einzufueg;
     einzufueg->next = nachdiesem->next;
     nachdiesem->next = einzufueg;
     return 0;
 }
 
-struct knoten *entfernen_ende(struct knoten **kopfref,struct knoten **ende) {
-    struct knoten *vor_ende,*t_ende;
-    if((*kopfref)->next==*ende){
-        (*kopfref)->next=NULL;
+struct knoten *entfernen_ende(struct knoten **kopfref, struct knoten **enderef) {
+    struct knoten *vor_ende, *t_ende;
+    if(*kopfref==*enderef){
+        printf("Das Letzte Element!!");
+        free(*enderef);
     }
-
-    vor_ende = *kopfref;
-    while (vor_ende->next!=*ende)
+    vor_ende=*kopfref;
+    while(vor_ende->next!=*enderef){
         vor_ende=vor_ende->next;
+    }
     t_ende=vor_ende->next;
     vor_ende->next=NULL;
+    *enderef=vor_ende;
     return t_ende;
 }
 
@@ -156,13 +166,13 @@ struct knoten *entfernen(struct knoten **kopfref, struct knoten *ende, struct kn
 
 struct knoten *entfernen(struct knoten **kopfref, struct knoten *auszufueg) {
     struct knoten *vor_auszufueg;
-    if ((auszufueg==NULL)||(kopfref==NULL)||(*kopfref==NULL)) return NULL;
-    if (auszufueg==*kopfref) {
+    if ((auszufueg == NULL) || (kopfref == NULL) || (*kopfref == NULL)) return NULL;
+    if (auszufueg == *kopfref) {
         *kopfref = (*kopfref)->next;
         return auszufueg;
     }
     vor_auszufueg = *kopfref;
-    while (vor_auszufueg->next!=auszufueg) {
+    while (vor_auszufueg->next != auszufueg) {
         if (vor_auszufueg->next == NULL) return NULL;
         vor_auszufueg = vor_auszufueg->next;
     }

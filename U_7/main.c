@@ -5,41 +5,52 @@
 
 
 int main(void) {
-    struct knoten *kopf = NULL, **enderef = NULL;
+
+    struct knoten *kopf = NULL, *ende = NULL;
     struct knoten *kn1, *kn2, *kn3, *kn4, *kn5, *kn6, *such, *entf;
 
 
     kn1 = (struct knoten *) malloc(sizeof(*kn1));
     kn1->wert = 5;
 
-    if (einfuegen_kopf(&kopf, kn1) != 0) {
+    if (einfuegen_kopf(&kopf, kn1, &ende) != 0) {
         printf("Fehler beim einfuegen\n");
         return -1;
     }
     puts("Nach einfuegen_kopf(kn1):");
-    durchlaufen(kopf);
+    durchlaufen(kopf, ende);
+    printf("Ende Knoten:%d\n", ende->wert);
 
     kn2 = (struct knoten *) malloc(sizeof(*kn2));
     kn2->wert = 6;
-    einfuegen_nach(kn1, kn2);
+    einfuegen_nach(kn1, kn2, &ende);
     puts("Nach einfuegen_nach(kn1, kn2):");
-    durchlaufen(kopf);
+    durchlaufen(kopf, ende);
+    printf("Ende Knoten:%d\n", ende->wert);
 
     kn3 = (struct knoten *) malloc(sizeof(*kn3));
     kn3->wert = 10;
-    einfuegen_nach(kn1, kn3);
+    einfuegen_nach(kn1, kn3, &ende);
     puts("Nach einfuegen_nach(kn1, kn3):");
-    durchlaufen(kopf);
+    durchlaufen(kopf, ende);
+    printf("Ende Knoten:%d\n", ende->wert);
 
     kn4 = (struct knoten *) malloc(sizeof(*kn4));
     kn4->wert = 12;
-    einfuegen_ende(enderef, &kn4);
+    einfuegen_ende(&ende, kn4);
     puts("Nach einfuegen_end(ende, kn4):");
-    durchlaufen(kopf);
+    durchlaufen(kopf, ende);
+    printf("Ende Knoten:%d\n", ende->wert);
 
+    entfernen_ende(&kopf, &ende);
+    puts("Nach Entfernen_end(kopf,ende):");
+    durchlaufen(kopf, ende);
+    printf("Ende Knoten:%d\n", ende->wert);
 
-
-
+    entfernen(&kopf, kn3);
+    puts("Nach Entfernen(kopf,knoten):");
+    durchlaufen(kopf, ende);
+    printf("Ende Knoten:%d\n", ende->wert);
 
     /*
     kopf = malloc(sizeof(struct knoten));
