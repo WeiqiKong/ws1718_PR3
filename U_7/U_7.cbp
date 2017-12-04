@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/xuexi/PR3/U_7/7_2.c">
+			<Option target="U_7"/>
+		</Unit>
 		<Unit filename="/Users/xuexi/PR3/U_7/liste1end.c">
 			<Option target="U_7"/>
 		</Unit>

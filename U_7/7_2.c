@@ -31,7 +31,7 @@ int main() {
 void binaer_speichern(angestellter arr[], int anz) {
     angestellter *ang = arr;
     FILE *fp;
-    fp = fopen("angestellte.txt", "w");
+    fp = fopen("angestellte.dat", "w");
     fprintf(fp,"%d",anz);
     for (int i = 0; i < anz; ++i) {
         fprintf(fp, "%s %d %0.2f",ang->name, ang->personalnummer, ang->gehalt);
@@ -44,7 +44,7 @@ void binaer_speichern(angestellter arr[], int anz) {
 
 void binaer_laden_und_ausgeben(void) {
     FILE *fp;
-    fp = fopen("angestellte.txt", "r");
+    fp = fopen("angestellte.dat", "r");
     int gross=1;
     fscanf(fp, "%d", &gross);
     angestellter *angs;

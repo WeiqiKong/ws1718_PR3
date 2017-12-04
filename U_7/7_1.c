@@ -14,6 +14,7 @@ void print2(int);
 
 void (*print2ptr)(int);
 
+
 void times2(int i, void (*pFunction)(int));
 
 int main() {
@@ -25,6 +26,10 @@ int main() {
     times2(i, print2ptr);
 
     return 0;
+}
+
+void times2(int i, void (*pFunction)(int)) {
+    (*pFunction)(i);
 }
 
 
@@ -41,8 +46,4 @@ void times(int i, void (*print)(void)) {
 void print2(int i) {
     for (int j = 1; j < i + 1; ++j)
         printf("%d", j);
-}
-
-void times2(int i, void (*pFunction)(int)) {
-    pFunction(i);
 }

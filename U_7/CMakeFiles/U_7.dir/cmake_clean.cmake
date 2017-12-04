@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/U_7.dir/main.c.o"
   "CMakeFiles/U_7.dir/liste1end.c.o"
+  "CMakeFiles/U_7.dir/7_2.c.o"
   "U_7.pdb"
   "U_7"
 )
