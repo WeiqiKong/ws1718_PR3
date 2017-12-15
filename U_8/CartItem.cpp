@@ -33,9 +33,8 @@ void CartItem::setEinheit(double einheit) {
     CartItem::einheit = einheit;
 }
 
-CartItem::CartItem(const string &name, int anzahl, double einheit) : name(name), anzahl(anzahl), einheit(einheit) {
-    CartItem::lastId++;
-    this->teamId = CartItem::lastId;
+CartItem::CartItem(const string &name, int anzahl, double einheit) : name(name), anzahl(anzahl),
+                                                                     einheit(einheit), itemId{++lastId} {
 }
 
 double CartItem::getCost() {
@@ -52,10 +51,20 @@ void CartItem::toString() {
     std::cout << os.str();
 }
 
-long CartItem::getTeamId() const {
-    return teamId;
+long CartItem::getItemId() const {
+    return itemId;
 }
 
-void CartItem::setTeamId(long teamId) {
-    CartItem::teamId = teamId;
+CartItem &CartItem::operator=(const CartItem &cartItem) {
+    if (this == &cartItem)
+        return *this;
+    this->setAnzahl(cartItem.getAnzahl());
+    this->setEinheit(cartItem.getEinheit());
+    this->setName(cartItem.getName());
+    return *this;
 }
+
+CartItem::CartItem(const CartItem &cartItem) : itemId(++lastId) {
+    *this=cartItem;
+}
+

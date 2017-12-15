@@ -42,10 +42,9 @@ void ShoppingCart::toString() {
 long* ShoppingCart::getTeamIds() {
     long *array {new long[CartItem::lastId]};
     for (int i = 0; i <CartItem::lastId; ++i) {
-        array[i]=getCartItems().at(i)->getTeamId();
+        array[i]= getCartItems().at(i)->getItemId();
     }
     return array;
-
 }
 
 const vector<CartItem *> &ShoppingCart::getCartItems() const {

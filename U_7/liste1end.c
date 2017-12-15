@@ -126,10 +126,13 @@ struct knoten *entfernen_ende(struct knoten **kopfref, struct knoten **enderef) 
         printf("Das Letzte Element!!");
         free(*enderef);
     }
+
     vor_ende=*kopfref;
+
     while(vor_ende->next!=*enderef){
         vor_ende=vor_ende->next;
     }
+
     t_ende=vor_ende->next;
     vor_ende->next=NULL;
     *enderef=vor_ende;

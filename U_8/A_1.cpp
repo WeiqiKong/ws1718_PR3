@@ -14,7 +14,6 @@ using namespace std;
 int main() {
     int length=10;
     int * array = createArray(length);
-
     releaseArray(array);
 
     return 0;

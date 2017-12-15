@@ -13,15 +13,18 @@ private:
     string name;
     int anzahl;
     double einheit;
-    long teamId;
+    const long itemId;
+
 public:
     static long lastId;
 
-    long getTeamId() const;
-
-    void setTeamId(long teamId);
+    long getItemId() const;
 
     CartItem(const string &name, int anzahl, double einheit);
+
+    CartItem(const CartItem & cartItem);
+
+    CartItem& operator= (const CartItem & );
 
     const string &getName() const;
 
