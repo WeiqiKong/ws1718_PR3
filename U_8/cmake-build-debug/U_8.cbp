@@ -8,94 +8,98 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/xuexi/PR3/U_8/cmake-build-debug"/>
+				<Option working_dir="/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/xuexi/PR3/U_8/cmake-build-debug"/>
+				<Option working_dir="/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/xuexi/PR3/U_8/cmake-build-debug"/>
+				<Option working_dir="/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="U_8">
-				<Option output="/Users/xuexi/PR3/U_8/cmake-build-debug/U_8" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/xuexi/PR3/U_8/cmake-build-debug"/>
+				<Option output="/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/U_8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 U_8"/>
-					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 U_8"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="U_8/fast">
-				<Option output="/Users/xuexi/PR3/U_8/cmake-build-debug/U_8" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/xuexi/PR3/U_8/cmake-build-debug"/>
+				<Option output="/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/U_8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 U_8/fast"/>
-					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/xuexi/PR3/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 U_8/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/xuexi/PR3/U_8/CartItem.cpp">
+		<Unit filename="/home/gravis/CLionProjects/pr3_uebs/U_8/CartItem.cpp">
 			<Option target="U_8"/>
 		</Unit>
-		<Unit filename="/Users/xuexi/PR3/U_8/CartItem.h">
+		<Unit filename="/home/gravis/CLionProjects/pr3_uebs/U_8/CartItem.h">
 			<Option target="U_8"/>
 		</Unit>
-		<Unit filename="/Users/xuexi/PR3/U_8/ShoppingCart.cpp">
+		<Unit filename="/home/gravis/CLionProjects/pr3_uebs/U_8/ShoppingCart.cpp">
 			<Option target="U_8"/>
 		</Unit>
-		<Unit filename="/Users/xuexi/PR3/U_8/ShoppingCart.h">
+		<Unit filename="/home/gravis/CLionProjects/pr3_uebs/U_8/ShoppingCart.h">
 			<Option target="U_8"/>
 		</Unit>
-		<Unit filename="/Users/xuexi/PR3/U_8/main.cpp">
+		<Unit filename="/home/gravis/CLionProjects/pr3_uebs/U_8/main.cpp">
 			<Option target="U_8"/>
 		</Unit>
-		<Unit filename="/Users/xuexi/PR3/U_8/CMakeLists.txt">
+		<Unit filename="/home/gravis/CLionProjects/pr3_uebs/U_8/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -3,4 +3,4 @@ project(Ueb_9)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Ueb_9 main.cpp int20.c)
+add_executable(Ueb_9 main.cpp Int20.cpp Int20.h Teilnehmer.cpp Teilnehmer.h)

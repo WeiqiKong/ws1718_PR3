@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/xuexi/PR3/U_8/CartItem.cpp
+/home/gravis/CLionProjects/pr3_uebs/U_8/CartItem.cpp
 sstream
 -
 iomanip
@@ -14,13 +14,13 @@ iomanip
 iostream
 -
 CartItem.h
-/Users/xuexi/PR3/U_8/CartItem.h
+/home/gravis/CLionProjects/pr3_uebs/U_8/CartItem.h
 
-/Users/xuexi/PR3/U_8/CartItem.h
+/home/gravis/CLionProjects/pr3_uebs/U_8/CartItem.h
 string
 -
 
-/Users/xuexi/PR3/U_8/Person.h
+/home/gravis/CLionProjects/pr3_uebs/U_8/Person.h
 cstdlib
 -
 string
@@ -28,7 +28,7 @@ string
 iostream
 -
 
-/Users/xuexi/PR3/U_8/ShoppingCart.cpp
+/home/gravis/CLionProjects/pr3_uebs/U_8/ShoppingCart.cpp
 sstream
 -
 iomanip
@@ -36,21 +36,21 @@ iomanip
 iostream
 -
 ShoppingCart.h
-/Users/xuexi/PR3/U_8/ShoppingCart.h
+/home/gravis/CLionProjects/pr3_uebs/U_8/ShoppingCart.h
 
-/Users/xuexi/PR3/U_8/ShoppingCart.h
+/home/gravis/CLionProjects/pr3_uebs/U_8/ShoppingCart.h
 vector
 -
 CartItem.h
-/Users/xuexi/PR3/U_8/CartItem.h
+/home/gravis/CLionProjects/pr3_uebs/U_8/CartItem.h
 
-/Users/xuexi/PR3/U_8/main.cpp
+/home/gravis/CLionProjects/pr3_uebs/U_8/main.cpp
 iostream
 -
 Person.h
-/Users/xuexi/PR3/U_8/Person.h
+/home/gravis/CLionProjects/pr3_uebs/U_8/Person.h
 CartItem.h
-/Users/xuexi/PR3/U_8/CartItem.h
+/home/gravis/CLionProjects/pr3_uebs/U_8/CartItem.h
 ShoppingCart.h
-/Users/xuexi/PR3/U_8/ShoppingCart.h
+/home/gravis/CLionProjects/pr3_uebs/U_8/ShoppingCart.h
 
