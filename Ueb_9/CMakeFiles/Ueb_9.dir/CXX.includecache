@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gravis/CLionProjects/pr3_uebs/Ueb_9/Int20.cpp
+Int20.h
+/home/gravis/CLionProjects/pr3_uebs/Ueb_9/Int20.h
+string
+-
+
+/home/gravis/CLionProjects/pr3_uebs/Ueb_9/Int20.h
+cstring
+-
+iostream
+-
+
+/home/gravis/CLionProjects/pr3_uebs/Ueb_9/Teilnehmer.cpp
+iostream
+-
+Teilnehmer.h
+/home/gravis/CLionProjects/pr3_uebs/Ueb_9/Teilnehmer.h
+random
+-
+
+/home/gravis/CLionProjects/pr3_uebs/Ueb_9/Teilnehmer.h
+string
+-
+
+/home/gravis/CLionProjects/pr3_uebs/Ueb_9/main.cpp
+iostream
+-
+vector
+-
+Int20.h
+/home/gravis/CLionProjects/pr3_uebs/Ueb_9/Int20.h
+Teilnehmer.h
+/home/gravis/CLionProjects/pr3_uebs/Ueb_9/Teilnehmer.h
+

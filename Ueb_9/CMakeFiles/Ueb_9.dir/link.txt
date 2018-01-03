@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Ueb_9.dir/main.cpp.o CMakeFiles/Ueb_9.dir/Int20.cpp.o CMakeFiles/Ueb_9.dir/Teilnehmer.cpp.o  -o Ueb_9 

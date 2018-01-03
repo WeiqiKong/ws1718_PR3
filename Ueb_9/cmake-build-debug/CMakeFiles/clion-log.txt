@@ -1,0 +1,4 @@
+/home/gravis/software/clion-2017.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/gravis/CLionProjects/pr3_uebs/Ueb_9
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gravis/CLionProjects/pr3_uebs/Ueb_9
