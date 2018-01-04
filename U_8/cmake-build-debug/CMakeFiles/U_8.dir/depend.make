@@ -4,6 +4,9 @@
 CMakeFiles/U_8.dir/CartItem.cpp.o: ../CartItem.cpp
 CMakeFiles/U_8.dir/CartItem.cpp.o: ../CartItem.h
 
+CMakeFiles/U_8.dir/Person.cpp.o: ../Person.cpp
+CMakeFiles/U_8.dir/Person.cpp.o: ../Person.h
+
 CMakeFiles/U_8.dir/ShoppingCart.cpp.o: ../CartItem.h
 CMakeFiles/U_8.dir/ShoppingCart.cpp.o: ../ShoppingCart.cpp
 CMakeFiles/U_8.dir/ShoppingCart.cpp.o: ../ShoppingCart.h

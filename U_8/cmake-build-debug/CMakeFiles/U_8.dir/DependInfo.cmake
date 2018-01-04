@@ -4,11 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gravis/CLionProjects/pr3_uebs/U_8/CartItem.cpp" "/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/CMakeFiles/U_8.dir/CartItem.cpp.o"
-  "/home/gravis/CLionProjects/pr3_uebs/U_8/ShoppingCart.cpp" "/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/CMakeFiles/U_8.dir/ShoppingCart.cpp.o"
-  "/home/gravis/CLionProjects/pr3_uebs/U_8/main.cpp" "/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/CMakeFiles/U_8.dir/main.cpp.o"
+  "/Users/xuexi/PR3/U_8/CartItem.cpp" "/Users/xuexi/PR3/U_8/cmake-build-debug/CMakeFiles/U_8.dir/CartItem.cpp.o"
+  "/Users/xuexi/PR3/U_8/Person.cpp" "/Users/xuexi/PR3/U_8/cmake-build-debug/CMakeFiles/U_8.dir/Person.cpp.o"
+  "/Users/xuexi/PR3/U_8/ShoppingCart.cpp" "/Users/xuexi/PR3/U_8/cmake-build-debug/CMakeFiles/U_8.dir/ShoppingCart.cpp.o"
+  "/Users/xuexi/PR3/U_8/main.cpp" "/Users/xuexi/PR3/U_8/cmake-build-debug/CMakeFiles/U_8.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

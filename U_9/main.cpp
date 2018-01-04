@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "Int20.h"
+#include "Int20/Int20.h"
 #include "Teilnehmer.h"
 
 #define ROUND 10
@@ -29,28 +29,6 @@ int main() {
     for (int i = 0; i < 2; ++i) {
         delete teilnehmers[i];
     }
-
-
-
-
-
-//    using namespace std;
-//    Int20 int20 {"123456"};
-//    cout<<int20<<endl;
-//    cout << " address:" << &int20 << endl;
-//
-//    Int20 int20_copy = int20;
-//    cout<<int20<<endl;
-//    cout << " address:" << &int20_copy << endl;
-//
-//    int20 += int20_copy;
-//    cout<<int20<<endl;
-//    cout << " address:" << &int20 << endl;
-//
-//    Int20 int20_plus = int20 + int20_copy;
-//    cout<<int20<<endl;
-//    cout << " address:" << &int20_plus << endl;
-//    cout<<boolalpha<<(int20<int20_plus)<<endl;
 
     return 0;
 }

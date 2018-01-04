@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/gravis/software/clion-2017.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/gravis/software/clion-2017.3/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gravis/CLionProjects/pr3_uebs/U_8
+CMAKE_SOURCE_DIR = /Users/xuexi/PR3/U_8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/xuexi/PR3/U_8/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/U_8.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/U_8.dir/flags.make
 
 CMakeFiles/U_8.dir/main.cpp.o: CMakeFiles/U_8.dir/flags.make
 CMakeFiles/U_8.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/U_8.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/U_8.dir/main.cpp.o -c /home/gravis/CLionProjects/pr3_uebs/U_8/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xuexi/PR3/U_8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/U_8.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/U_8.dir/main.cpp.o -c /Users/xuexi/PR3/U_8/main.cpp
 
 CMakeFiles/U_8.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/U_8.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gravis/CLionProjects/pr3_uebs/U_8/main.cpp > CMakeFiles/U_8.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xuexi/PR3/U_8/main.cpp > CMakeFiles/U_8.dir/main.cpp.i
 
 CMakeFiles/U_8.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/U_8.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gravis/CLionProjects/pr3_uebs/U_8/main.cpp -o CMakeFiles/U_8.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xuexi/PR3/U_8/main.cpp -o CMakeFiles/U_8.dir/main.cpp.s
 
 CMakeFiles/U_8.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/U_8.dir/main.cpp.o.provides.build: CMakeFiles/U_8.dir/main.cpp.o
 
 CMakeFiles/U_8.dir/ShoppingCart.cpp.o: CMakeFiles/U_8.dir/flags.make
 CMakeFiles/U_8.dir/ShoppingCart.cpp.o: ../ShoppingCart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/U_8.dir/ShoppingCart.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/U_8.dir/ShoppingCart.cpp.o -c /home/gravis/CLionProjects/pr3_uebs/U_8/ShoppingCart.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xuexi/PR3/U_8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/U_8.dir/ShoppingCart.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/U_8.dir/ShoppingCart.cpp.o -c /Users/xuexi/PR3/U_8/ShoppingCart.cpp
 
 CMakeFiles/U_8.dir/ShoppingCart.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/U_8.dir/ShoppingCart.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gravis/CLionProjects/pr3_uebs/U_8/ShoppingCart.cpp > CMakeFiles/U_8.dir/ShoppingCart.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xuexi/PR3/U_8/ShoppingCart.cpp > CMakeFiles/U_8.dir/ShoppingCart.cpp.i
 
 CMakeFiles/U_8.dir/ShoppingCart.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/U_8.dir/ShoppingCart.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gravis/CLionProjects/pr3_uebs/U_8/ShoppingCart.cpp -o CMakeFiles/U_8.dir/ShoppingCart.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xuexi/PR3/U_8/ShoppingCart.cpp -o CMakeFiles/U_8.dir/ShoppingCart.cpp.s
 
 CMakeFiles/U_8.dir/ShoppingCart.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/U_8.dir/ShoppingCart.cpp.o.provides.build: CMakeFiles/U_8.dir/Shoppin
 
 CMakeFiles/U_8.dir/CartItem.cpp.o: CMakeFiles/U_8.dir/flags.make
 CMakeFiles/U_8.dir/CartItem.cpp.o: ../CartItem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/U_8.dir/CartItem.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/U_8.dir/CartItem.cpp.o -c /home/gravis/CLionProjects/pr3_uebs/U_8/CartItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xuexi/PR3/U_8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/U_8.dir/CartItem.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/U_8.dir/CartItem.cpp.o -c /Users/xuexi/PR3/U_8/CartItem.cpp
 
 CMakeFiles/U_8.dir/CartItem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/U_8.dir/CartItem.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gravis/CLionProjects/pr3_uebs/U_8/CartItem.cpp > CMakeFiles/U_8.dir/CartItem.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xuexi/PR3/U_8/CartItem.cpp > CMakeFiles/U_8.dir/CartItem.cpp.i
 
 CMakeFiles/U_8.dir/CartItem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/U_8.dir/CartItem.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gravis/CLionProjects/pr3_uebs/U_8/CartItem.cpp -o CMakeFiles/U_8.dir/CartItem.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xuexi/PR3/U_8/CartItem.cpp -o CMakeFiles/U_8.dir/CartItem.cpp.s
 
 CMakeFiles/U_8.dir/CartItem.cpp.o.requires:
 
@@ -129,11 +129,36 @@ CMakeFiles/U_8.dir/CartItem.cpp.o.provides: CMakeFiles/U_8.dir/CartItem.cpp.o.re
 CMakeFiles/U_8.dir/CartItem.cpp.o.provides.build: CMakeFiles/U_8.dir/CartItem.cpp.o
 
 
+CMakeFiles/U_8.dir/Person.cpp.o: CMakeFiles/U_8.dir/flags.make
+CMakeFiles/U_8.dir/Person.cpp.o: ../Person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xuexi/PR3/U_8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/U_8.dir/Person.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/U_8.dir/Person.cpp.o -c /Users/xuexi/PR3/U_8/Person.cpp
+
+CMakeFiles/U_8.dir/Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/U_8.dir/Person.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xuexi/PR3/U_8/Person.cpp > CMakeFiles/U_8.dir/Person.cpp.i
+
+CMakeFiles/U_8.dir/Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/U_8.dir/Person.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xuexi/PR3/U_8/Person.cpp -o CMakeFiles/U_8.dir/Person.cpp.s
+
+CMakeFiles/U_8.dir/Person.cpp.o.requires:
+
+.PHONY : CMakeFiles/U_8.dir/Person.cpp.o.requires
+
+CMakeFiles/U_8.dir/Person.cpp.o.provides: CMakeFiles/U_8.dir/Person.cpp.o.requires
+	$(MAKE) -f CMakeFiles/U_8.dir/build.make CMakeFiles/U_8.dir/Person.cpp.o.provides.build
+.PHONY : CMakeFiles/U_8.dir/Person.cpp.o.provides
+
+CMakeFiles/U_8.dir/Person.cpp.o.provides.build: CMakeFiles/U_8.dir/Person.cpp.o
+
+
 # Object files for target U_8
 U_8_OBJECTS = \
 "CMakeFiles/U_8.dir/main.cpp.o" \
 "CMakeFiles/U_8.dir/ShoppingCart.cpp.o" \
-"CMakeFiles/U_8.dir/CartItem.cpp.o"
+"CMakeFiles/U_8.dir/CartItem.cpp.o" \
+"CMakeFiles/U_8.dir/Person.cpp.o"
 
 # External object files for target U_8
 U_8_EXTERNAL_OBJECTS =
@@ -141,9 +166,10 @@ U_8_EXTERNAL_OBJECTS =
 U_8: CMakeFiles/U_8.dir/main.cpp.o
 U_8: CMakeFiles/U_8.dir/ShoppingCart.cpp.o
 U_8: CMakeFiles/U_8.dir/CartItem.cpp.o
+U_8: CMakeFiles/U_8.dir/Person.cpp.o
 U_8: CMakeFiles/U_8.dir/build.make
 U_8: CMakeFiles/U_8.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable U_8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xuexi/PR3/U_8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable U_8"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/U_8.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +180,7 @@ CMakeFiles/U_8.dir/build: U_8
 CMakeFiles/U_8.dir/requires: CMakeFiles/U_8.dir/main.cpp.o.requires
 CMakeFiles/U_8.dir/requires: CMakeFiles/U_8.dir/ShoppingCart.cpp.o.requires
 CMakeFiles/U_8.dir/requires: CMakeFiles/U_8.dir/CartItem.cpp.o.requires
+CMakeFiles/U_8.dir/requires: CMakeFiles/U_8.dir/Person.cpp.o.requires
 
 .PHONY : CMakeFiles/U_8.dir/requires
 
@@ -162,6 +189,6 @@ CMakeFiles/U_8.dir/clean:
 .PHONY : CMakeFiles/U_8.dir/clean
 
 CMakeFiles/U_8.dir/depend:
-	cd /home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gravis/CLionProjects/pr3_uebs/U_8 /home/gravis/CLionProjects/pr3_uebs/U_8 /home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug /home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug /home/gravis/CLionProjects/pr3_uebs/U_8/cmake-build-debug/CMakeFiles/U_8.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/xuexi/PR3/U_8/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/xuexi/PR3/U_8 /Users/xuexi/PR3/U_8 /Users/xuexi/PR3/U_8/cmake-build-debug /Users/xuexi/PR3/U_8/cmake-build-debug /Users/xuexi/PR3/U_8/cmake-build-debug/CMakeFiles/U_8.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/U_8.dir/depend
 

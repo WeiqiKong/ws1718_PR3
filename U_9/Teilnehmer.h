@@ -41,5 +41,4 @@ class Hase : public Teilnehmer {
     int getRandomNum();
 };
 
-
 #endif //UEB_9_TEILNEHMER_H
