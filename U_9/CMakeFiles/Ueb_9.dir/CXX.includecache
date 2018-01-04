@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/xuexi/PR3/Ueb_9/Int20.cpp
+Int20.h
+/Users/xuexi/PR3/Ueb_9/Int20.h
+string
+-
+
+/Users/xuexi/PR3/Ueb_9/Int20.h
+cstring
+-
+iostream
+-
+
+/Users/xuexi/PR3/Ueb_9/Teilnehmer.cpp
+iostream
+-
+Teilnehmer.h
+/Users/xuexi/PR3/Ueb_9/Teilnehmer.h
+random
+-
+
+/Users/xuexi/PR3/Ueb_9/Teilnehmer.h
+string
+-
+
+/Users/xuexi/PR3/Ueb_9/main.cpp
+iostream
+-
+vector
+-
+Int20.h
+/Users/xuexi/PR3/Ueb_9/Int20.h
+Teilnehmer.h
+/Users/xuexi/PR3/Ueb_9/Teilnehmer.h
+

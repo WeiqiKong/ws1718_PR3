@@ -1,3 +1,0 @@
-/home/gravis/CLionProjects/pr3_uebs/Ueb_9/CMakeFiles/rebuild_cache.dir
-/home/gravis/CLionProjects/pr3_uebs/Ueb_9/CMakeFiles/edit_cache.dir
-/home/gravis/CLionProjects/pr3_uebs/Ueb_9/CMakeFiles/Ueb_9.dir
